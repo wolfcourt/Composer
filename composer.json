@@ -1,0 +1,17 @@
+{
+    "name": "composer/quest",
+    "authors": [
+        {
+            "name": "Thomas Essoungou",
+            "email": "essoungou_thomas@hotmail.fr"
+        }
+    ],
+    "require": {
+        "ehime/hello-world": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
